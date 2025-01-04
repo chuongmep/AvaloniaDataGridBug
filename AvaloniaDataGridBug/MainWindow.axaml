@@ -100,7 +100,6 @@
                 <DataGridTemplateColumn.Header>
                     <CheckBox
                         HorizontalAlignment="Center"
-                        Padding="0"
                         HorizontalContentAlignment="Center">
                     </CheckBox>
                 </DataGridTemplateColumn.Header>
@@ -111,7 +110,6 @@
                     </DataTemplate>
                 </DataGridTemplateColumn.CellTemplate>
             </DataGridTemplateColumn>
-            <DataGridTextColumn Header="Name" />
         </DataGrid.Columns>
     </DataGrid>
 

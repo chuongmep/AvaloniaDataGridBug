@@ -65,3 +65,4 @@
 /Users/chuongmep/RiderProjects/AvaloniaDataGridBug/AvaloniaDataGridBug/obj/Debug/net8.0/Avalonia.22613729.Up2Date
 /Users/chuongmep/RiderProjects/AvaloniaDataGridBug/AvaloniaDataGridBug/obj/Debug/net8.0/AvaloniaDataGridBug.genruntimeconfig.cache
 /Users/chuongmep/RiderProjects/AvaloniaDataGridBug/AvaloniaDataGridBug/obj/Debug/net8.0/ref/AvaloniaDataGridBug.dll
+/Users/chuongmep/RiderProjects/AvaloniaDataGridBug/AvaloniaDataGridBug/obj/Debug/net8.0/AvaloniaDataGridBug.sourcelink.json
