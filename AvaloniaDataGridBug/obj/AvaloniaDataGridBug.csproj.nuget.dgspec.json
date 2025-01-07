@@ -1,27 +1,34 @@
 {
   "format": 1,
   "restore": {
-    "/Users/chuongmep/RiderProjects/AvaloniaDataGridBug/AvaloniaDataGridBug/AvaloniaDataGridBug.csproj": {}
+    "D:\\API\\Forge\\AvaloniaDataGridBug\\AvaloniaDataGridBug\\AvaloniaDataGridBug.csproj": {}
   },
   "projects": {
-    "/Users/chuongmep/RiderProjects/AvaloniaDataGridBug/AvaloniaDataGridBug/AvaloniaDataGridBug.csproj": {
+    "D:\\API\\Forge\\AvaloniaDataGridBug\\AvaloniaDataGridBug\\AvaloniaDataGridBug.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/chuongmep/RiderProjects/AvaloniaDataGridBug/AvaloniaDataGridBug/AvaloniaDataGridBug.csproj",
+        "projectUniqueName": "D:\\API\\Forge\\AvaloniaDataGridBug\\AvaloniaDataGridBug\\AvaloniaDataGridBug.csproj",
         "projectName": "AvaloniaDataGridBug",
-        "projectPath": "/Users/chuongmep/RiderProjects/AvaloniaDataGridBug/AvaloniaDataGridBug/AvaloniaDataGridBug.csproj",
-        "packagesPath": "/Users/chuongmep/.nuget/packages/",
-        "outputPath": "/Users/chuongmep/RiderProjects/AvaloniaDataGridBug/AvaloniaDataGridBug/obj/",
+        "projectPath": "D:\\API\\Forge\\AvaloniaDataGridBug\\AvaloniaDataGridBug\\AvaloniaDataGridBug.csproj",
+        "packagesPath": "C:\\Users\\vho2\\.nuget\\packages\\",
+        "outputPath": "D:\\API\\Forge\\AvaloniaDataGridBug\\AvaloniaDataGridBug\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/Users/chuongmep/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\vho2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.jetbrains.space/chuongmep/p/main/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
@@ -37,9 +44,8 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+          "auditMode": "direct"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -77,26 +83,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.11, 8.0.11]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.osx-arm64",
-              "version": "[8.0.11, 8.0.11]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.11, 8.0.11]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

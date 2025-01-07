@@ -1,10 +1,13 @@
-<Window xmlns="https://github.com/avaloniaui"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
-        x:Class="AvaloniaDataGridBug.MainWindow"
-        Title="AvaloniaDataGridBug">
+<Window
+    xmlns="https://github.com/avaloniaui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignWidth="800"
+    d:DesignHeight="450"
+    x:Class="AvaloniaDataGridBug.MainWindow"
+    Title="AvaloniaDataGridBug">
     <Window.Resources>
         <ControlTheme
             x:Key="GridHeaderCompatibleWithCenteredContent"
@@ -21,8 +24,7 @@
                         CornerRadius="{TemplateBinding CornerRadius}">
                         <Grid Name="PART_ColumnHeaderRoot" ColumnDefinitions="*,Auto">
 
-                            <Panel HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
-                                   VerticalAlignment="{TemplateBinding VerticalContentAlignment}">
+                            <Panel HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}">
                                 <Grid>
                                     <Grid.ColumnDefinitions>
                                         <ColumnDefinition Width="*" />
@@ -98,18 +100,22 @@
             <!-- <DataGridCheckBoxColumn Binding="{Binding IsSelected}" Header="Check" /> -->
             <DataGridTemplateColumn>
                 <DataGridTemplateColumn.Header>
-                    <CheckBox
-                        HorizontalAlignment="Center"
-                        HorizontalContentAlignment="Center">
-                    </CheckBox>
+                    <CheckBox HorizontalAlignment="Center" HorizontalContentAlignment="Center" />
                 </DataGridTemplateColumn.Header>
                 <DataGridTemplateColumn.CellTemplate>
                     <DataTemplate>
-                        <CheckBox
-                            HorizontalAlignment="Center" />
+                        <CheckBox HorizontalAlignment="Center" />
                     </DataTemplate>
                 </DataGridTemplateColumn.CellTemplate>
             </DataGridTemplateColumn>
+            <DataGridTextColumn Header="Test1" />
+            <DataGridTextColumn Header="Test2" />
+            <DataGridTextColumn Header="Test3" />
+            <DataGridTextColumn Header="Test4" />
+            <DataGridTextColumn Header="Test4" />
+            <DataGridTextColumn Header="Test4" />
+            <DataGridTextColumn Header="Test4" />
+            <DataGridTextColumn Header="Test4" />
         </DataGrid.Columns>
     </DataGrid>
 
